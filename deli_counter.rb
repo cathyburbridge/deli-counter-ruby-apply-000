@@ -17,7 +17,6 @@ def take_a_number(line, name_of_person)
 end
 
 def now_serving(line)
-  # line = ["cathy", "Isaac"]
   if !line.empty?
     puts "Currently serving #{line[0]}."
 line.shift
